@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 
 import Loader from "./Loader";
+import Paginate from "./Paginate";
 
 const Giphy = () => {
   const [data, setData] = useState([]);
@@ -78,6 +79,7 @@ const Giphy = () => {
     try {
       const results = await axios("https://api.giphy.com/v1/gifs/search", {
         params: {
+          // we could setup .env files as well
           api_key: "GlVGYHkr3WSBnllca54iNt0yFbjz7L65",
           q: search,
           limit: 100
@@ -112,9 +114,15 @@ const Giphy = () => {
           type="submit"
           className="btn btn-primary mx-2"
         >
-          Go
+          Search
         </button>
       </form>
+      <Paginate
+        pageSelected={pageSelected}
+        currentPage={currentPage}
+        itemsPerPage={itemsPerPage}
+        totalItems={data.length}
+      />
       <div className="container gifs">{renderGifs()}</div>
     </div>
   );
