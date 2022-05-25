@@ -5,7 +5,8 @@
 }
 
 body {
-  background-color: white;
+  margin: 50px;
+  background-color: lightslategrey;
 }
 
 .gifs {
@@ -14,7 +15,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  row-gap: 10px;
+  row-gap: 30px;
 }
 
 .gif {
@@ -24,8 +25,22 @@ body {
 .gif > img{
   width: 300px;
   height: 300px;
+  border-radius: 10px;
 }
 
 .loader {
   color: black;
+}
+input[type="text"] {
+
+  background-color: #ECF0F1;
+  border: none; 
+
+}
+
+.main-container{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+  border-radius: 10px;
 }

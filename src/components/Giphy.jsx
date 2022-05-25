@@ -99,31 +99,33 @@ const Giphy = () => {
   };
 
   return (
-    <div className="m-2">
-      {renderError()}
-      <form className="form-inline justify-content-center m-2">
-        <input
-          value={search}
-          onChange={handleSearchChange}
-          type="text"
-          placeholder="search"
-          className="form-control"
-        />
-        <button
-          onClick={handleSubmit}
-          type="submit"
-          className="btn btn-primary mx-2"
-        >
-          Search
-        </button>
-      </form>
+    <div className="container-fluid">
+      <div className="container-fluid main-container">
+        {renderError()}
+        <form className="form-inline justify-content-center">
+          <input
+            value={search}
+            onChange={handleSearchChange}
+            type="text"
+            placeholder="search for GIFs"
+            className="form-control col-10"
+          />
+          <button
+            onClick={handleSubmit}
+            type="submit"
+            className="btn btn-dark m-2 col-1"
+          >
+            Search
+          </button>
+        </form>
+        <div className="container-fluid gifs">{renderGifs()}</div>
+      </div>
       <Paginate
         pageSelected={pageSelected}
         currentPage={currentPage}
         itemsPerPage={itemsPerPage}
         totalItems={data.length}
       />
-      <div className="container gifs">{renderGifs()}</div>
     </div>
   );
 };
