@@ -108,12 +108,12 @@ const Giphy = () => {
             onChange={handleSearchChange}
             type="text"
             placeholder="search for GIFs"
-            className="form-control col-10"
+            className="form-control col-sm-8 col-lg-10 col-12"
           />
           <button
             onClick={handleSubmit}
             type="submit"
-            className="btn btn-dark m-2 col-1"
+            className="btn btn-dark m-2 col-sm-3 col-4 col-lg-1"
           >
             Search
           </button>
