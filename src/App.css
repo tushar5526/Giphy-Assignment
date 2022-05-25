@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: white;
+}
+
+.gifs {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  row-gap: 10px;
+}
+
+.gif {
+  padding: 0 2px;
+}
+
+.gif > img{
+  width: 300px;
+  height: 300px;
+}
+
+.loader {
+  color: black;
+}
