@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0;padding:0}body{margin:50px;background-color:#789}.gifs{margin:0 auto;width:100%;display:flex;flex-wrap:wrap;justify-content:space-evenly;grid-row-gap:30px;row-gap:30px}.gif{padding:0 2px}.gif>img{width:300px;height:300px;border-radius:10px}.loader{color:#000}input[type=text]{background-color:#ecf0f1;border:none}.main-container{padding-top:20px;padding-bottom:20px;background-color:#fff;border-radius:10px}
+/*# sourceMappingURL=main.643f910e.chunk.css.map */

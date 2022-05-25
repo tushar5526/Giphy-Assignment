@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Giphy-Assignment/static/css/main.643f910e.chunk.css",
+    "main.js": "/Giphy-Assignment/static/js/main.8610ddde.chunk.js",
+    "main.js.map": "/Giphy-Assignment/static/js/main.8610ddde.chunk.js.map",
+    "runtime-main.js": "/Giphy-Assignment/static/js/runtime-main.aaf06b04.js",
+    "runtime-main.js.map": "/Giphy-Assignment/static/js/runtime-main.aaf06b04.js.map",
+    "static/js/2.5c4e98d5.chunk.js": "/Giphy-Assignment/static/js/2.5c4e98d5.chunk.js",
+    "static/js/2.5c4e98d5.chunk.js.map": "/Giphy-Assignment/static/js/2.5c4e98d5.chunk.js.map",
+    "index.html": "/Giphy-Assignment/index.html",
+    "precache-manifest.87be2af9a8e14da650dcda713f1962eb.js": "/Giphy-Assignment/precache-manifest.87be2af9a8e14da650dcda713f1962eb.js",
+    "service-worker.js": "/Giphy-Assignment/service-worker.js",
+    "static/css/main.643f910e.chunk.css.map": "/Giphy-Assignment/static/css/main.643f910e.chunk.css.map",
+    "static/js/2.5c4e98d5.chunk.js.LICENSE.txt": "/Giphy-Assignment/static/js/2.5c4e98d5.chunk.js.LICENSE.txt",
+    "static/js/main.8610ddde.chunk.js.LICENSE.txt": "/Giphy-Assignment/static/js/main.8610ddde.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aaf06b04.js",
+    "static/js/2.5c4e98d5.chunk.js",
+    "static/css/main.643f910e.chunk.css",
+    "static/js/main.8610ddde.chunk.js"
+  ]
+}
